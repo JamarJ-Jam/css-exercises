@@ -1,0 +1,16 @@
+.Number {
+    background-color: hsl(360, 100%, 75%);
+    font-family: Verdana, Dejavu Sans, serif;
+}
+.Number.three {
+    font-size: 24px;
+}
+#second {
+    color: #0000ff;
+    font-size: 36px;
+}
+#fourth {
+    background-color: hsl(120, 100%, 75%);
+    font-weight: bold;
+    font-size: 24px;
+}
