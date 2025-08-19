@@ -7,25 +7,23 @@ body {
   flex-direction: row;
   justify-content: center;
   border: 2px solid pink;
-  flex: 0 0 200px;
   gap: 52px;
 }
 
 .image {
+  display: flex;
   flex-wrap: wrap;
+  flex-basis: 200px;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
-  display: flex;
-  align-self: flex-start;
-}
-
-.text {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .title {
