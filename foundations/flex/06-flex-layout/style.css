@@ -5,15 +5,14 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 15vh;
 }
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
   background: #eeeeee;
-  padding-top: 20vh;
 }
 
 .content {
@@ -21,19 +20,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
-.left-footer {}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#left-footer {
+  display:flex;
+  align-items: flex-end;
+}
+
+#right-footer {
+  display:flex;
+  align-items: flex-end;
+}
 
 .left-links {
-  list-style: none;
   display: flex;
+  padding: 10px;
   gap: 8px;
 }
 
 .right-links {
-  list-style: none;
   display: flex;
+  padding: 10px;
   gap: 8px;
 }
 
@@ -57,6 +72,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
