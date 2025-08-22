@@ -20,6 +20,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 85px;
+  padding-bottom: 140px;
   gap: 20px;
 }
 
@@ -30,30 +32,19 @@ ul {
   display: flex;
 }
 
-#left-footer {
-  display:flex;
-  align-items: flex-end;
-}
-
-#right-footer {
-  display:flex;
-  align-items: flex-end;
-}
-
 .left-links {
-  display: flex;
   padding: 10px;
-  gap: 8px;
+  gap: 16px;
 }
 
 .right-links {
-  display: flex;
   padding: 10px;
-  gap: 8px;
+  gap: 16px;
 }
 
 a:link {
   text-decoration: none;
+  color: #0707079f;
 }
 
 body {
