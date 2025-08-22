@@ -5,19 +5,40 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 8px;
+  padding-bottom: 15vh;
 }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #eeeeee;
+  padding-top: 20vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-footer {}
 
 .left-links {
   list-style: none;
-}
-
-a:link {
-  text-decoration: none;
+  display: flex;
+  gap: 8px;
 }
 
 .right-links {
   list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 body {
